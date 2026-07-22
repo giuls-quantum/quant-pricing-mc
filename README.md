@@ -67,7 +67,7 @@ cd quant-pricing-mc
 2. Run the CLI:
 
 ```bash
-python3 -m src.quant-pricing-mc.cli
+python3 -m src.quant_pricing_mc.cli
 ```
 
 The CLI will:
@@ -79,10 +79,11 @@ The CLI will:
 ### CLI options
 
 ```bash
-python3 -m src.quant-pricing-mc.cli \
+python3 -m src.quant_pricing_mc.cli \
   --S0 100.0 \
   --K 105.0 \
   --T 1.0 \
+
   --r 0.05 \
   --sigma 0.20 \
   --steps 252 \
